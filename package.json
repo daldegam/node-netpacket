@@ -1,0 +1,33 @@
+{
+  "name": "netpacket",
+  "version": "0.0.2",
+  "description": "Binary packet writer/reader.",
+  "homepage": "https://github.com/WoLfulus/node-netpacket",
+  "license": "MIT",
+  "keywords": [
+    "tcp",
+    "network",
+    "buffer",
+    "buffers",
+    "binary",
+    "protocol",
+	"packet",
+	"packets",
+    "raw"
+  ],
+  "author": {
+    "name": "João Francisco Biondo Trinca",
+    "email": "wolfulus@gmail.com"
+  },
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WoLfulus/node-netpacket"
+  },
+  "dependencies": {
+      "netbuffer": "*"
+  },
+  "engines": {
+    "node": ">= 0.6.14"
+  }
+}
